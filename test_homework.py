@@ -9,6 +9,8 @@ def test_greeting():
     # TODO Сформируйте нужную строку
     output = ""
 
+    print
+
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
 
