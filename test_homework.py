@@ -53,10 +53,10 @@ def test_random_list():
     """
     # TODO создайте список
     l = random.sample(range(1, 101), 10)
-
+    l.sort()
     assert len(l) == 10
-    # assert all(l[i] <= l[i + 1] for i in range(len(l) - 1))
-    assert l[0] < l[-1]
+    assert all(l[i] <= l[i + 1] for i in range(len(l) - 1))
+    # assert l[0] < l[-1]
 
 def test_unique_elements():
     """
