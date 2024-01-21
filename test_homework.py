@@ -8,8 +8,10 @@ def test_greeting():
     age = 25
     # TODO Сформируйте нужную строку
     output = f"Привет, {name}! Тебе {age} лет."
+    
 
     print(output)
+    
 
 test_greeting()
 
