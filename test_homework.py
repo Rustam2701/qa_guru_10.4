@@ -12,7 +12,8 @@ def test_greeting():
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
     print(output)
-    test_greeting()
+    
+test_greeting()
 
 
 
